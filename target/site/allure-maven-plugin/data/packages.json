@@ -1,0 +1,178 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "unauthorizedUserGetProfile",
+      "uid" : "8bf3527f44d8ebe0",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613677925,
+        "stop" : 1717613695039,
+        "duration" : 17114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "authUserGetProfileTest",
+      "uid" : "7b7dba5bd6bf6927",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613695299,
+        "stop" : 1717613709728,
+        "duration" : 14429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fillingTabTest",
+      "uid" : "4f70bef8a16c909f",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613709767,
+        "stop" : 1717613714902,
+        "duration" : 5135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "switchBunTabTest",
+      "uid" : "fbdb3303a74d02d2",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613714908,
+        "stop" : 1717613720992,
+        "duration" : 6084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "saucesTabTest",
+      "uid" : "2b75db3f3f5b22ca",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613720995,
+        "stop" : 1717613727045,
+        "duration" : 6050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInWithAccountButtonTest",
+      "uid" : "64ea78eda4bd96fa",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613727052,
+        "stop" : 1717613740202,
+        "duration" : 13150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInWithMainButtonTest",
+      "uid" : "f7a70b2394b8ebd7",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613740209,
+        "stop" : 1717613754055,
+        "duration" : 13846
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInFromRegistrationPageTest",
+      "uid" : "9fe1909f2d054f73",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613754061,
+        "stop" : 1717613766448,
+        "duration" : 12387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoutTest",
+      "uid" : "2c45c31aa1ed6caf",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613766453,
+        "stop" : 1717613783249,
+        "duration" : 16796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInFromResetPasswordPageTest",
+      "uid" : "5158e1b13c615e83",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613783254,
+        "stop" : 1717613796143,
+        "duration" : 12889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "goFromProfileToMain[Go from profile using the /logo button]",
+      "uid" : "fb4a0015d2949942",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613796169,
+        "stop" : 1717613803203,
+        "duration" : 7034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "goFromProfileToMain[Go from profile using the /constructor button]",
+      "uid" : "b7b878bd9f8c43dd",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613803209,
+        "stop" : 1717613809671,
+        "duration" : 6462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fiveSymbolsPasswordTest",
+      "uid" : "e48ae620eb579db1",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613809676,
+        "stop" : 1717613819804,
+        "duration" : 10128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be5e18e41bf32fca5cace70290d883bb"
+  } ]
+}

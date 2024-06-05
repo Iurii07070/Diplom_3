@@ -1,0 +1,194 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "GoToProfileTest",
+    "children" : [ {
+      "name" : "Go to the profile as an unauthorized user",
+      "uid" : "8bf3527f44d8ebe0",
+      "parentUid" : "1e7eb4d2d4ffc9f09edb4e6c78ada947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613677925,
+        "stop" : 1717613695039,
+        "duration" : 17114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Go to the profile as an authorized user",
+      "uid" : "7b7dba5bd6bf6927",
+      "parentUid" : "1e7eb4d2d4ffc9f09edb4e6c78ada947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613695299,
+        "stop" : 1717613709728,
+        "duration" : 14429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1e7eb4d2d4ffc9f09edb4e6c78ada947"
+  }, {
+    "name" : "ConstructorTests",
+    "children" : [ {
+      "name" : "Click on fillings tab",
+      "uid" : "4f70bef8a16c909f",
+      "parentUid" : "114829b65c6c2a80ad23fe698d920a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613709767,
+        "stop" : 1717613714902,
+        "duration" : 5135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Switch from Buns tab and go back to Buns tab",
+      "uid" : "fbdb3303a74d02d2",
+      "parentUid" : "114829b65c6c2a80ad23fe698d920a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613714908,
+        "stop" : 1717613720992,
+        "duration" : 6084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Click on sauces tab",
+      "uid" : "2b75db3f3f5b22ca",
+      "parentUid" : "114829b65c6c2a80ad23fe698d920a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613720995,
+        "stop" : 1717613727045,
+        "duration" : 6050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "114829b65c6c2a80ad23fe698d920a6a"
+  }, {
+    "name" : "LoginTests",
+    "children" : [ {
+      "name" : "Log in with account button",
+      "uid" : "64ea78eda4bd96fa",
+      "parentUid" : "a57ac622527d5de0d05f7667b2e11275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613727052,
+        "stop" : 1717613740202,
+        "duration" : 13150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Log in with Log in button on main page",
+      "uid" : "f7a70b2394b8ebd7",
+      "parentUid" : "a57ac622527d5de0d05f7667b2e11275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613740209,
+        "stop" : 1717613754055,
+        "duration" : 13846
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login from the registration page",
+      "uid" : "9fe1909f2d054f73",
+      "parentUid" : "a57ac622527d5de0d05f7667b2e11275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613754061,
+        "stop" : 1717613766448,
+        "duration" : 12387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Log out from account",
+      "uid" : "2c45c31aa1ed6caf",
+      "parentUid" : "a57ac622527d5de0d05f7667b2e11275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613766453,
+        "stop" : 1717613783249,
+        "duration" : 16796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Log in from reset password page",
+      "uid" : "5158e1b13c615e83",
+      "parentUid" : "a57ac622527d5de0d05f7667b2e11275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613783254,
+        "stop" : 1717613796143,
+        "duration" : 12889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a57ac622527d5de0d05f7667b2e11275"
+  }, {
+    "name" : "GoFromProfileTest",
+    "children" : [ {
+      "name" : "goFromProfileToMain[Go from profile using the /logo button]",
+      "uid" : "fb4a0015d2949942",
+      "parentUid" : "11845bd76d63926907e493879836e11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613796169,
+        "stop" : 1717613803203,
+        "duration" : 7034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "goFromProfileToMain[Go from profile using the /constructor button]",
+      "uid" : "b7b878bd9f8c43dd",
+      "parentUid" : "11845bd76d63926907e493879836e11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613803209,
+        "stop" : 1717613809671,
+        "duration" : 6462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "11845bd76d63926907e493879836e11e"
+  }, {
+    "name" : "RegistrationTests",
+    "children" : [ {
+      "name" : "Should return error when registration with five symbols password",
+      "uid" : "e48ae620eb579db1",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717613809676,
+        "stop" : 1717613819804,
+        "duration" : 10128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bfbf0814db7d6b4dabf9085572a9919b"
+  } ]
+}

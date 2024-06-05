@@ -1,0 +1,131 @@
+[ {
+  "uid" : "2b75db3f3f5b22ca",
+  "name" : "Click on sauces tab",
+  "time" : {
+    "start" : 1717613720995,
+    "stop" : 1717613727045,
+    "duration" : 6050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7b878bd9f8c43dd",
+  "name" : "goFromProfileToMain[Go from profile using the /constructor button]",
+  "time" : {
+    "start" : 1717613803209,
+    "stop" : 1717613809671,
+    "duration" : 6462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c45c31aa1ed6caf",
+  "name" : "Log out from account",
+  "time" : {
+    "start" : 1717613766453,
+    "stop" : 1717613783249,
+    "duration" : 16796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5158e1b13c615e83",
+  "name" : "Log in from reset password page",
+  "time" : {
+    "start" : 1717613783254,
+    "stop" : 1717613796143,
+    "duration" : 12889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a70b2394b8ebd7",
+  "name" : "Log in with Log in button on main page",
+  "time" : {
+    "start" : 1717613740209,
+    "stop" : 1717613754055,
+    "duration" : 13846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e48ae620eb579db1",
+  "name" : "Should return error when registration with five symbols password",
+  "time" : {
+    "start" : 1717613809676,
+    "stop" : 1717613819804,
+    "duration" : 10128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64ea78eda4bd96fa",
+  "name" : "Log in with account button",
+  "time" : {
+    "start" : 1717613727052,
+    "stop" : 1717613740202,
+    "duration" : 13150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb4a0015d2949942",
+  "name" : "goFromProfileToMain[Go from profile using the /logo button]",
+  "time" : {
+    "start" : 1717613796169,
+    "stop" : 1717613803203,
+    "duration" : 7034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b7dba5bd6bf6927",
+  "name" : "Go to the profile as an authorized user",
+  "time" : {
+    "start" : 1717613695299,
+    "stop" : 1717613709728,
+    "duration" : 14429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbdb3303a74d02d2",
+  "name" : "Switch from Buns tab and go back to Buns tab",
+  "time" : {
+    "start" : 1717613714908,
+    "stop" : 1717613720992,
+    "duration" : 6084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f70bef8a16c909f",
+  "name" : "Click on fillings tab",
+  "time" : {
+    "start" : 1717613709767,
+    "stop" : 1717613714902,
+    "duration" : 5135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fe1909f2d054f73",
+  "name" : "Login from the registration page",
+  "time" : {
+    "start" : 1717613754061,
+    "stop" : 1717613766448,
+    "duration" : 12387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bf3527f44d8ebe0",
+  "name" : "Go to the profile as an unauthorized user",
+  "time" : {
+    "start" : 1717613677925,
+    "stop" : 1717613695039,
+    "duration" : 17114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

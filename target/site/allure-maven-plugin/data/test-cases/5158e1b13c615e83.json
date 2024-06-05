@@ -1,0 +1,327 @@
+{
+  "uid" : "5158e1b13c615e83",
+  "name" : "Log in from reset password page",
+  "fullName" : "LoginTests.logInFromResetPasswordPageTest",
+  "historyId" : "fef57f2fc1db971eb0a3817530ecd214",
+  "time" : {
+    "start" : 1717613783254,
+    "stop" : 1717613796143,
+    "duration" : 12889
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setUp",
+      "time" : {
+        "start" : 1717613783254,
+        "stop" : 1717613784262,
+        "duration" : 1008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "generate user credentials",
+        "time" : {
+          "start" : 1717613783254,
+          "stop" : 1717613783254,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create API user",
+        "time" : {
+          "start" : 1717613783254,
+          "stop" : 1717613783595,
+          "duration" : 341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "praktikum.API.User@74cad6d"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "setDriver",
+        "time" : {
+          "start" : 1717613783596,
+          "stop" : 1717613784257,
+          "duration" : 661
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on LogIn button on Reset password page",
+      "time" : {
+        "start" : 1717613786585,
+        "stop" : 1717613787720,
+        "duration" : 1135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "loginUserSuccessfully",
+      "time" : {
+        "start" : 1717613787720,
+        "stop" : 1717613792450,
+        "duration" : 4730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "clear input and insert Email",
+        "time" : {
+          "start" : 1717613787720,
+          "stop" : 1717613789386,
+          "duration" : 1666
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "bWghjFLc@gmail.com"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "clear input and insert password",
+        "time" : {
+          "start" : 1717613789386,
+          "stop" : 1717613789817,
+          "duration" : 431
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "AyLaKDZo"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click on LogIn Button",
+        "time" : {
+          "start" : 1717613789817,
+          "stop" : 1717613790809,
+          "duration" : 992
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "check if CreateOrder button is enabled",
+        "time" : {
+          "start" : 1717613790809,
+          "stop" : 1717613792450,
+          "duration" : 1641
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "praktikum.API.User@74cad6d"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click on profile button",
+      "time" : {
+        "start" : 1717613792450,
+        "stop" : 1717613793455,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "check if Profile tab is enabled",
+      "time" : {
+        "start" : 1717613793455,
+        "stop" : 1717613795189,
+        "duration" : 1734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "cleanUp",
+      "time" : {
+        "start" : 1717613795189,
+        "stop" : 1717613796143,
+        "duration" : 954
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getAccessToken response",
+        "time" : {
+          "start" : 1717613795190,
+          "stop" : 1717613795572,
+          "duration" : 382
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "loginUser response",
+          "time" : {
+            "start" : 1717613795190,
+            "stop" : 1717613795525,
+            "duration" : 335
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "praktikum.API.User@74cad6d"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "praktikum.API.User@74cad6d"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Delete user",
+        "time" : {
+          "start" : 1717613795572,
+          "stop" : 1717613796063,
+          "duration" : 491
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NjBiNGQ3OWVkMjgwMDAxYjQyYzhkYyIsImlhdCI6MTcxNzYxMzc5NSwiZXhwIjoxNzE3NjE0OTk1fQ.RrH4WZNVARWrJQVxMSJ4_v_hniH3OVMj6rZYH0cH2tI"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInFromResetPasswordPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "casper1143.local"
+  }, {
+    "name" : "thread",
+    "value" : "14898@casper1143.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5158e1b13c615e83.json",
+  "parameterValues" : [ ]
+}

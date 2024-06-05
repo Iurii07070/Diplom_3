@@ -1,0 +1,264 @@
+{
+  "uid" : "8bf3527f44d8ebe0",
+  "name" : "Go to the profile as an unauthorized user",
+  "fullName" : "GoToProfileTest.unauthorizedUserGetProfile",
+  "historyId" : "96187b6db8d305de839a3eae3a52b281",
+  "time" : {
+    "start" : 1717613677925,
+    "stop" : 1717613695039,
+    "duration" : 17114
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setUp",
+      "time" : {
+        "start" : 1717613677989,
+        "stop" : 1717613686261,
+        "duration" : 8272
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "generate user credentials",
+        "time" : {
+          "start" : 1717613680541,
+          "stop" : 1717613680546,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create API user",
+        "time" : {
+          "start" : 1717613680560,
+          "stop" : 1717613683770,
+          "duration" : 3210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "praktikum.API.User@3ece79fe"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "setDriver",
+        "time" : {
+          "start" : 1717613683790,
+          "stop" : 1717613686249,
+          "duration" : 2459
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "check if LogIn button is visible",
+      "time" : {
+        "start" : 1717613690685,
+        "stop" : 1717613690943,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click on Profile button",
+      "time" : {
+        "start" : 1717613690944,
+        "stop" : 1717613692368,
+        "duration" : 1424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert that header text is 'Вход'",
+      "time" : {
+        "start" : 1717613692389,
+        "stop" : 1717613692576,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get text from header",
+        "time" : {
+          "start" : 1717613692407,
+          "stop" : 1717613692550,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome-headless-shell on MAC (533f405339fdb7534788d9cb232a9352)"
+      }, {
+        "name" : "expectedHeaderText",
+        "value" : "Вход"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "cleanUp",
+      "time" : {
+        "start" : 1717613692577,
+        "stop" : 1717613695032,
+        "duration" : 2455
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getAccessToken response",
+        "time" : {
+          "start" : 1717613692577,
+          "stop" : 1717613694362,
+          "duration" : 1785
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "loginUser response",
+          "time" : {
+            "start" : 1717613692577,
+            "stop" : 1717613693045,
+            "duration" : 468
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "praktikum.API.User@3ece79fe"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "praktikum.API.User@3ece79fe"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Delete user",
+        "time" : {
+          "start" : 1717613694367,
+          "stop" : 1717613694942,
+          "duration" : 575
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NjBiNDczOWVkMjgwMDAxYjQyYzhiYyIsImlhdCI6MTcxNzYxMzY5MywiZXhwIjoxNzE3NjE0ODkzfQ.OwywRKHvQLqCLvwc6sRErurUVdF92WHWUyHkJR4Cc5M"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "GoToProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unauthorizedUserGetProfile"
+  }, {
+    "name" : "suite",
+    "value" : "GoToProfileTest"
+  }, {
+    "name" : "host",
+    "value" : "casper1143.local"
+  }, {
+    "name" : "thread",
+    "value" : "14898@casper1143.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bf3527f44d8ebe0.json",
+  "parameterValues" : [ ]
+}
